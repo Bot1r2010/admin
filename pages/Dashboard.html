@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | Purple UI</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="content__left sidebar">
+          <h1>
+            <i class="ri-dashboard-fill" style="margin-right: 8px"></i>Admin
+          </h1>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="active">
+                <i class="ri-home-4-line"></i> Home
+              </a>
+            </li>
+            <li>
+              <a href="#"> <i class="ri-box-3-line"></i> Products </a>
+            </li>
+            <li>
+              <a href="#"> <i class="ri-file-user-line"></i> Users </a>
+            </li>
+            <li>
+              <a href="#"> <i class="ri-bar-chart-2-line"></i> Analytics </a>
+            </li>
+            <li>
+              <a href="#"> <i class="ri-settings-4-line"></i> Settings </a>
+            </li>
+            <li>
+              <a href="#"> <i class="ri-question-line"></i> Help </a>
+            </li>
+          </ul>
+
+          <div>
+            <button id="logoutBtn"><i class="ri-logout-box-r-line"></i> Log out</button>
+          </div>
+        </div>
+
+        <div class="content__right">
+          <nav class="navbar">
+            <h2>Dashboard Overview</h2>
+
+            <div class="user-profile">
+              <span>
+                <i class="ri-mail-unread-line"></i>
+              </span>
+              <p>Botir</p>
+              <i class="ri-arrow-down-s-line" style="margin-left: 5px"></i>
+            </div>
+          </nav>
+
+
+
+          <main class="main">
+            <div style="display: flex; align-items: center; gap: 16px;">
+              <h3 style="margin-bottom: 20px; color: var(--muted); font-weight:700;">
+                <i class="ri-table-line"></i> Product List
+              </h3>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Category</th>
+                  <th>Description</th>
+                  <th>Price</th>
+                  <th>Image</th>
+
+                </tr>
+              </thead>
+              <tbody class="table-body"></tbody>
+            </table>
+          </main>
+        </div>
+      </div>
+    </div>
+  <script src="../utils/Deshboard.js" defer></script>
+  </body>
+</html>
