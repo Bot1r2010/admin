@@ -232,3 +232,51 @@ tbody td {
   .content__right { padding: 20px; }
   .table-body img { width: 40px; height: 40px; }
 }
+
+.viewBtn{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgb(20, 127, 226);
+  border: 1px solid rgb(20, 127, 226);
+  border-radius: 10px;
+  transition: 0s;
+}
+
+.viewBtn:hover{
+  background-color: rgba(0, 102, 255, 0.671);
+  box-shadow: rgb(20, 127, 226) 0px 0px 2px 2px;
+}
+
+.editBtn{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #9d3535;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 1px solid #9d3535;
+}
+
+.editBtn:hover{
+  background-color: #d70909;
+  box-shadow: #d70909 0px 0px 2px 2px;
+}
+
+.deleteBtn{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #99fa9c;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 1px solid #99fa9c;
+}
+
+.deleteBtn:hover{
+  background-color: #00ff08;
+  box-shadow: #00ff08 0px 0px 2px 2px;
+}
